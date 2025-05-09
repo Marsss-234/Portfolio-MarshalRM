@@ -353,6 +353,27 @@ span {
   .education-img img:hover {
     transform: scale(1.05);
   }
+
+  .btn-cv {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: white;
+  background-color: #b74b4b;
+  border-radius: 4rem;
+  border: 2px solid #b74b4b;
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-cv:hover {
+  background-color: transparent;
+  color: #b74b4b;
+  box-shadow: 0 0 15px #b74b4b;
+}
   
   @media (max-width: 768px) {
     .education-content {
